@@ -5,6 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Flutter Flow](https://img.shields.io/badge/-Flutter%20Flow-02569B?style=flat&logo=flutter&logoColor=white)
+
 ---
 ```dart
 import 'package:portfolio/aboutme.dart';
@@ -34,6 +35,13 @@ class GitHubPortfolio {
       year: [2022],
       type: "Academic award",
       organization: "Singapore Polytechnic"),
+
+    RecentAchievements(
+      name: "Article on my rollerblading business",
+      year: [2021],
+      type: "News publication",
+      url: "https://mothership.sg/2022/01/sg-skate-club-interview/",
+      organization: "Mothership.sg"),
   ];
 
   List<CurrentProject> currentProject = [
