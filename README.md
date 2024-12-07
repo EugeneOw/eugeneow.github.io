@@ -46,11 +46,11 @@ class GitHubPortfolio {
 
   List<CurrentProject> currentProject = [
     CurrentProject(
-      name: "Custom image recognition pipeline",
-      type: "Mobile application", 
-      description:"This mobile app improves off-site experiences for construction "
-                  "workers with features like tracking lorry locations, "
-                  "managing lorry allocations, and calculating salaries." 
+      name: "Automated Trading Bot - Reinforcement Learning",
+      type: "Trading Bot", 
+      content: "The system is designed to train a reinforcement learning agent to perform trades using historical forex data. The agent learns from the market data using indicators such as MACD and EMA, and optimizes its trading strategy based on reward maximization."
+
+ 
     ), 
   ];
 }
