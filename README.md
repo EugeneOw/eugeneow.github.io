@@ -48,9 +48,9 @@ class GitHubPortfolio {
     CurrentProject(
       name: "Automated Trading Bot - Reinforcement Learning",
       type: "Trading Bot", 
-      content: "The system is designed to train a reinforcement learning agent to perform trades using historical forex data. The agent learns from the market data using indicators such as MACD and EMA, and optimizes its trading strategy based on reward maximization."
-
- 
+      content: "The system is designed to train a reinforcement learning agent to perform trades 
+                using historical forex data. The agent learns from the market data using indicators such as 
+                MACD and EMA, and optimizes its trading strategy based on reward maximization."
     ), 
   ];
 }
