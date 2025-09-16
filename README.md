@@ -16,41 +16,42 @@ import 'package:portfolio/projects.dart';
 class GitHubPortfolio {
   AboutMe aboutMe = AboutMe(
       name: "Eugene Ow Jia Jun",
-      age: 24,
-      
-      school: ["Nanyang Technologocial University (2024-2028)","Singapore Polytechnic (2019-2022)"],
+      age: 25,
+
+      education: ["Nanyang Technologocial University (2024-2028)","Singapore Polytechnic (2019-2022)"],
       course: "Electrical and Electronics Engineering with Second major in Business",
       
       skills: ["UI/UX design", "Mobile/Web app development", "Business management"],
       software: ["Figma", "Dart", "Python", "Javascript", "Flutter", "Flutter Flow"]);
 
   Contact contact = Contact(
-      email: 'mailto: eugeneow23@gmail.com',
+      email: 'eugeneow23@gmail.com',
       instagram: 'https://www.instagram.com/_.eugeneow',
       linkedIn: 'https://www.linkedin.com/in/eugene-ow/');
 
   List<RecentAchievements> recentAchievements = [
+    
+    RecentAchievements(
+      name: "Undergraduate Research Experience On Campus (URECA)",
+      year: [2024],
+      type: "Research Programme",
+      organization: "Nanyang Technological University"),
+
     RecentAchievements(
       name: "Diploma with Merit in Electrical and Electronics Engineering",
       year: [2022],
       type: "Academic award",
       organization: "Singapore Polytechnic"),
-
-    RecentAchievements(
-      name: "Article on my rollerblading business",
-      year: [2021],
-      type: "News publication",
-      url: "https://mothership.sg/2022/01/sg-skate-club-interview/",
-      organization: "Mothership.sg"),
   ];
 
   List<CurrentProject> currentProject = [
     CurrentProject(
-      name: "Automated Trading Bot - Reinforcement Learning",
-      type: "Trading Bot", 
-      content: "The system is designed to train a reinforcement learning agent to perform trades 
-                using historical forex data. The agent learns from the market data using indicators such as 
-                MACD and EMA, and optimizes its trading strategy based on reward maximization."
+      name: "TailGNN",
+      type: "Research Programme", 
+      content: "This project aims to build a dynamic, graph-based model for forecasting tail 
+            risk and systemic contagion in the U.S. equity market, mainly focusing on the individual constituents 
+            of the S&P 500 (SPY) index. We will attempt this by using both a Small Feedforward Neural Network 
+            followed by a Temporal Graph Neural Nework (TGNN) with daily recorded, minute-level, Level 1 (L1) data."
     ), 
   ];
 }
